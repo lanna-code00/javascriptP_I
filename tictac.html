@@ -15,37 +15,64 @@
         <div class="container">
             <div class="row mx-auto mt-5 justify-content-center">
                 <div class="col-md-6">
-                    <div id="player1name"></div>
-                    <div id="player2name"></div>
+                    <div class="displayed mb-3">
+                            <div id="startgametext"></div>
+                            <div id="player1name" class="players"></div>
+                            <div id="player2name" class="players"></div>
+                            <input type="text" class="form-control" id="name1" placeholder="Player 1">
+                            <input type="text" class="form-control mt-3 mb-3" id="name2" placeholder="Player 2">
+                            <button class="btn btn-success" onclick="startgame()">START GAME</button>
+                    </div>
+                       <div id="displayplayers" class="text-center mb-2"></div>
+                    <div class="card bg-dark" style="width: 400px; height:400px;">
+                        <div class="col-md-12">
+                        <div class="mybtns">
+                            <button class="btn btn-success" value="X" onclick="chnageval(event)" id="play1"></button>
+                            <button class="btn btn-success" value="X" onclick="chnageval(event)" id="play2"></button>
+                            <button class="btn btn-success" value="X" onclick="chnageval(event)" id="play3"></button>
+    
+                            <button class="btn btn-success mt-3" value="X" onclick="chnageval(event)" id="play4"></button>
+                            <button class="btn btn-success mt-3" value="X" onclick="chnageval(event)" id="play5"></button>
+                            <button class="btn btn-success mt-3" value="X" onclick="chnageval(event)" id="play6"></button>
+                        
+                            <button class="btn btn-success mt-3" value="X" onclick="chnageval(event)" id="play7"></button>
+                            <button class="btn btn-success mt-3" value="X" onclick="chnageval(event)" id="play8"></button>
+                            <button class="btn btn-success mt-3" value="X" onclick="chnageval(event)" id="play9"></button>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div id="showwinner2" class="mt-2"></div>
+                    <button onclick="replaygame()" class="btn btn-info">REPLAY</button>
+                    <button onclick="endgame()" class="btn btn-danger ">END GAME</button>
                 </div>
 
                 <div class="col-md-6">
-                    <input type="text" class="form-control" id="name1" placeholder="Player 1">
-                    <input type="text" class="form-control mt-3 mb-3" id="name2" placeholder="Player 2">
+                  
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th scope="col">Name</th>
+                                <th scope="col">Score</th>
+                            </tr>
+                        </thead>
+                        <tbody >
+                            <tr>
+                                <td id="players1name"></td>
+                                <td id="player1score"></td>
+                            </tr>
+                            <tr>
+                                <td id="players2name"></td>
+                                <td id="player2score"></td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
-                <div class="card bg-dark" style="width: 400px; height:400px;">
-                <div class="col-md-12">
-                    <div class="mybtns">
-                        <button class="btn btn-success" value="X" onclick="chnageval(event)" id="play1"></button>
-                        <button class="btn btn-success" value="X" onclick="chnageval(event)" id="play2"></button>
-                        <button class="btn btn-success" value="X" onclick="chnageval(event)" id="play3"></button>
-
-                        <button class="btn btn-success mt-3" value="X" onclick="chnageval(event)" id="play4"></button>
-                        <button class="btn btn-success mt-3" value="X" onclick="chnageval(event)" id="play5"></button>
-                        <button class="btn btn-success mt-3" value="X" onclick="chnageval(event)" id="play6"></button>
-                    
-                        <button class="btn btn-success mt-3" value="X" onclick="chnageval(event)" id="play7"></button>
-                        <button class="btn btn-success mt-3" value="X" onclick="chnageval(event)" id="play8"></button>
-                        <button class="btn btn-success mt-3" value="X" onclick="chnageval(event)" id="play9"></button>
-                    </div>
-                    </div>
-                </div>
-                <div id="showwinner" class="mt-2"></div>
-                <div id="showwinner2" class="mt-2"></div>
-            </div>
+             
+        </div>
         </div>
 </body>
 </html>
 
-
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <script src="tictac.js"></script>
