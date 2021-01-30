@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+      <button onclick="clickMe(2)">Click1</button>
+      <button onclick="clickMe(5)">Click2</button>
+      <button onclick="clickMe(3)">Click3</button>
+      <p id="show"></p>
+    <!-- <input type="text" name="" id="val" onkeyup="writeme()">
+    <button id="hello">something</button>
+    <button id="hello2" onmouseover="change()">something</button> -->
+</body>
+
+<script>
+    var a = 1;
+    let clickMe = (val) => {
+        if (val) {
+           show.innerHTML = a *= val; 
+        }
+    //  a *= val;
+    //  show.innerHTML = a;
+ }
+//    function writeme() {
+//        if (hello.innerHTML.length < 1) {
+//            hello.innerHTML = "something" 
+//         } else{
+//            hello.innerHTML = val.value;
+//         }
+//    }
+
+//    function change() {
+//      if (hello2.innerHTML == "something") {
+//          hello2.innerHTML = "hello";
+//      } else{
+//          hello2.innerHTML = "something"
+//      }
+//    }
+</script>
+
+</html>

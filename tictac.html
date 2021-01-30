@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="tictac.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+</head>
+<body>
+        <div class="container">
+            <div class="row mx-auto mt-5 justify-content-center">
+                <div class="col-md-6">
+                    <div id="player1name"></div>
+                    <div id="player2name"></div>
+                </div>
+
+                <div class="col-md-6">
+                    <input type="text" class="form-control" id="name1" placeholder="Player 1">
+                    <input type="text" class="form-control mt-3 mb-3" id="name2" placeholder="Player 2">
+                </div>
+                <div class="card bg-dark" style="width: 400px; height:400px;">
+                <div class="col-md-12">
+                    <div class="mybtns">
+                        <button class="btn btn-success" value="X" onclick="chnageval(event)" id="play1"></button>
+                        <button class="btn btn-success" value="X" onclick="chnageval(event)" id="play2"></button>
+                        <button class="btn btn-success" value="X" onclick="chnageval(event)" id="play3"></button>
+
+                        <button class="btn btn-success mt-3" value="X" onclick="chnageval(event)" id="play4"></button>
+                        <button class="btn btn-success mt-3" value="X" onclick="chnageval(event)" id="play5"></button>
+                        <button class="btn btn-success mt-3" value="X" onclick="chnageval(event)" id="play6"></button>
+                    
+                        <button class="btn btn-success mt-3" value="X" onclick="chnageval(event)" id="play7"></button>
+                        <button class="btn btn-success mt-3" value="X" onclick="chnageval(event)" id="play8"></button>
+                        <button class="btn btn-success mt-3" value="X" onclick="chnageval(event)" id="play9"></button>
+                    </div>
+                    </div>
+                </div>
+                <div id="showwinner" class="mt-2"></div>
+                <div id="showwinner2" class="mt-2"></div>
+            </div>
+        </div>
+</body>
+</html>
+
+
+<script src="tictac.js"></script>

@@ -1,0 +1,374 @@
+#pSecondBackground {
+    width: 350px;
+    height: 600px;
+    margin-top: 30px;
+    border-radius: 10px;
+    background: #353434;
+    position: relative;
+  }
+
+  .text-over-img { 
+    z-index:1; 
+    font-size: 1.5em;
+    margin-top: -50px; 
+    margin-left: 20px;
+  } 
+
+  #randombtn{ 
+    font-size: 1.1em;
+    justify-content: space-between;
+  } 
+  #randombtn span{
+    margin: 17px 58px;
+    /* margin-top: -120p; */
+    color: #fff;
+    /* padding: 10px; */
+  }
+  #mynumbers{
+    margin-top: -60px;
+    border-radius: 10px;
+    width:240px;
+    height: 50px;
+    position: fixed;
+    text-align: center;
+    outline: rgb(23, 23, 24);
+  }
+  #blueBackground{
+    width: 350px;
+    height: 600px;
+    background-color: rgb(10, 10, 117);
+
+  }
+  #dialpad{
+    width: 350px;
+    height: 610px;
+    margin-top: 30px;
+    border-radius: 10px;
+    background: #fff;
+    position: relative;
+  }
+
+  #dialpad2{
+    width: 430px;
+    max-height: 900px;
+    margin-top: -8px;
+    border-radius: 0px;
+    background: none;
+    /* position: relative; */
+  }
+#bgdialpad{
+background-color: rgb(253, 253, 253);
+height: 50px;
+/* width: 100%; */
+border: 1px solid rgb(223, 218, 218);
+margin-top: -100px;
+padding-top: 2px;
+font-size: 30px;
+}
+#menubackground{
+  width: 350px;
+  height: 600px;
+  background-color: rgba(179, 79, 79, 0.301);
+position: fixed;
+/* background-color: transparent; */
+}
+#dialdisplay{
+  /* width: ; */
+  margin-top: -100px;
+}
+
+#othertools{
+  margin-top: -270px;
+}
+#welcomePage{
+	 width: 350px;
+    height: 600px;
+    background-color: rgb(10, 10, 117);
+}
+.btns{
+  position: relative;
+  margin-top: -170px;
+  margin-left: 95px;
+}
+.buttons{
+  width: 75px;
+  height:35px;
+  border-radius: 7px;
+  border: 1px solid rgb(255, 255, 255);
+}
+/* p{
+  line-height: 5px;
+} */
+
+#timing{
+   z-index: 1000;
+   position: absolute; 
+   margin-top: 50px;
+   font-size: 35px;
+   font-weight: bold;
+   margin-left:20px;
+   color: #fff;
+}
+  #curvedDiv{
+    width: 180px;
+    height: 30px;
+    margin-top: -615px;
+    margin-left: 102px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: black;
+    position: fixed;
+  }
+  #onBtn {
+    width: 13px;
+    height: 60px;
+    margin-left: 421px;
+    border-radius: 13px;
+    margin-top: -500px;
+    background: black;
+    position: fixed;
+    cursor: pointer;
+  }
+#pBackground {
+    position: fixed;
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    width: 380px;
+    height: 680px;
+  }
+  #homeBtn {
+      color: #fff;
+      font-size: 20px;
+      margin-left: 10px;
+    margin-top: 5px;
+    border-radius: 10px;
+    position: relative;
+  }
+  #JustifyBtn{
+    color: #fff;
+    font-size: 20px;
+    margin-top: 660px;
+    margin-left: 230px;
+  border-radius: 10px;
+  position: relative;
+}
+#arrowBtn{
+    color: #fff;
+    font-size: 20px;
+    margin-top: -30px;
+    margin-left: 380px;
+  border-radius: 10px;
+  position: relative;
+}
+#spin{
+	font-size: 50px;
+   margin-top: 70px;
+   margin-left: 100px;
+  }
+
+  /* Modal */
+.mycards{
+  cursor: pointer;
+}
+  #mynetworks{
+  display: none;
+  position: fixed; 
+  z-index: 10; 
+  padding-top: 100px;
+  left: 252px;
+  top: 18px;
+  width: 430px;
+  height: 735px; 
+  overflow: auto; 
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+}
+#modalcontent {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+#messages{
+  display: none;
+  position: fixed; 
+  z-index: 1; 
+  padding-top: 100px;
+  left: 252px;
+  top: 18px;
+  width: 430px;
+  height: 735px; 
+  overflow: auto; 
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+}
+#messagescard {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+#addmessagediv{
+  display: none;
+  position: fixed; 
+  z-index: 1; 
+  padding-top: 100px;
+  left: 252px;
+  top: 18px;
+  width: 430px;
+  height: 735px; 
+  overflow: auto; 
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+}
+#addmessagedivs {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%;
+}
+
+#lockscreen {
+   display: none;
+  position: fixed; 
+  z-index: 1; 
+  padding-top: 100px;
+  left: 164px;
+  top: 18px;
+  width: 430px;
+  height: 735px; 
+  overflow: auto; 
+  background-color: rgb(0,0,0);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#createnew{
+  position: fixed; 
+  z-index: 1; 
+  padding-top: 100px;
+  left: 420px;
+  top: 0px;
+  max-width: 120%;
+  max-height: 80%; 
+  border: none;
+  outline: none;
+  color: #ffffff;
+}
+#createnewcard {
+  cursor: pointer;
+  border: none;
+  margin: auto;
+  padding: 20px;
+  width: 120%;
+}
+
+#contactdetails{
+  display: none;
+  position: fixed; 
+  z-index: 100; 
+  padding-top: 100px;
+  left: 252px;
+  top: 18px;
+  width: 430px;
+  height: 735px; 
+  border: none;
+  outline: none;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+}
+#contactdetailbg{
+  border-radius: 10px;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+#mycontact {
+  height: 610px;
+  overflow-x: hidden; 
+  overflow-y: scroll; 
+}
+
+#textmessages2{
+  height: 610px;
+  overflow-x: hidden; 
+  overflow-y: scroll; 
+}
+
+
+#searchcontact{
+  width: 430px;
+  height: 40px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+}
+
+#authorname{
+  width: 430px;
+  height: 40px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+}
+
+#newmessage{
+  margin-left: 340px;
+  margin-top: 500px;
+}
+
+#callinterface {
+  display: none;
+  position: fixed; 
+  z-index: 1; 
+  padding-top: 100px;
+  left: 253px;
+  top: 52px;
+  width: 431px;
+  height: 659px; 
+  overflow: auto; 
+  background-color: #4f93ec;
+  /* background-color: rgb(0,0,0);
+  background-color: rgba(0, 0, 0, 0.5); */
+}
+
+#dialedContacts{
+  height: 200px;
+  overflow-x: hidden; 
+  overflow-y: scroll; 
+}
+
+#receivingcall{
+  display: none;
+  position: fixed; 
+  z-index: 1; 
+  padding-top: 100px;
+  left: 253px;
+  top: 52px;
+  width: 431px;
+  height: 659px; 
+  overflow: auto; 
+  background-color: #4f93ec;
+}
+
+#answeredcall{
+  display: none;
+  position: fixed; 
+  z-index: 1; 
+  padding-top: 100px;
+  left: 253px;
+  top: 52px;
+  width: 431px;
+  height: 659px; 
+  overflow: auto; 
+  background-color: #4f93ec;
+}
