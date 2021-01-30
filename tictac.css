@@ -7,3 +7,26 @@
     font-size: 50px;
     color: rgb(255, 238, 0);
 }
+
+.displayed {
+  width: 390px;
+}
+#displayplayers {
+    font-size: 20px;
+    color: rgb(151, 0, 0);
+}
+
+#showwinner2 {
+    font-size: 30px;
+    color: rgb(151, 0, 0);
+}
+
+#startgametext {
+    font-size: 30px;
+    color: rgb(151, 0, 0);
+}
+
+.displayed .players {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
